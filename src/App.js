@@ -79,6 +79,7 @@ function App() {
           <div className="btninput">
             <input
               className="input"
+              autoComplete="off"
               type="text"
               name="text"
               value={name}

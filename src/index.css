@@ -44,6 +44,9 @@ code {
   outline: none;
   /* box-shadow: 1px 1px 5px #20c3c3; */
 }
+.input:focus {
+  box-shadow: 1px 1px 5px #20c3c3;
+}
 .submitbtn {
   width: 20%;
   font-size: 1rem;
@@ -58,6 +61,9 @@ code {
 }
 .submitbtn:hover {
   background-color: #20c3c3;
+}
+.submitbtn:active {
+  box-shadow: 1px 1px 5px #20c3c3;
 }
 .item {
   display: flex;
@@ -117,4 +123,7 @@ code {
 }
 .clearbtn:hover {
   background-color: #20c3c3;
+}
+.clearbtn:active {
+  box-shadow: 1px 1px 5px #20c3c3;
 }
