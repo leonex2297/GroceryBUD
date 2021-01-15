@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Libre Baskerville", serif;
+  background-color: #f1f5f8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 40%;
+  margin-left: 30%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.form {
+  margin-top: 20%;
+  text-align: center;
+}
+.btninput {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  font-size: 1.5rem;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  border-color: #20c3c3;
+  outline: none;
+}
+.submitbtn {
+  width: 20%;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-color: #20c3c3;
+  background-color: #afeaea;
+  color: #1a5050;
+  outline: none;
+}
+.submitbtn:hover {
+  background-color: #20c3c3;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.item:hover {
+  background-color: #20c3c3;
+  border-radius: 10px;
+  color: #fff;
+}
+.itemname {
+  margin-left: 10px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: 10px;
+}
+.editbtn {
+  margin-right: 10px;
+  color: #1a5050;
+  background-color: #afeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.removebtn {
+  margin-left: 10px;
+  color: #fa0a0a;
+  background-color: #f7e7e7;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main {
+  height: 60vh;
+  overflow: auto;
+}
+.clearbtn {
+  width: 18%;
+  height: 8%;
+  border-radius: 8px;
+  border: 1px solid gray;
+  border-color: #20c3c3;
+  font-size: 1rem;
+  margin-left: 10px;
+  background-color: #afeaea;
+  color: #1a5050;
+  margin-left: 45%;
+  cursor: pointer;
+  outline: none;
+}
+.clearbtn:hover {
+  background-color: #20c3c3;
 }
