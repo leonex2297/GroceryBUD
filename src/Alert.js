@@ -14,6 +14,7 @@ const Alert = ({ msg, removeAlert, list }) => {
         style={{
           position: "absolute",
           margint: "5px",
+          marginTop: "30px",
           marginLeft: "10px",
           color: "#F27070",
         }}

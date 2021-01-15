@@ -94,7 +94,8 @@ function App() {
           <div className="main">
             <List items={list} removeItem={removeItem} editItem={editItem} />
             <button className="clearbtn" onClick={clearAllData}>
-              Clear All <MdDeleteForever color="red" />
+              Clear All{" "}
+              <MdDeleteForever color="red" style={{ marginLeft: "10px" }} />
             </button>
           </div>
         )}
